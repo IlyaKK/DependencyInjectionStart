@@ -5,6 +5,7 @@ import com.example.dependencyinjectionstart.example2.presentation.MainActivity
 import dagger.BindsInstance
 import dagger.Component
 
+@ApplicationScope
 @Component(modules = [DataModule::class, DomainModule::class])
 interface ApplicationComponent {
 

@@ -11,7 +11,7 @@ class ExampleDatabase @Inject constructor(
 ) {
 
     fun method() {
-        Log.d(LOG_TAG, "ExampleDatabase ${context.getString(R.string.app_name)} $timeInMills")
+        Log.d(LOG_TAG, "ExampleDatabase ${context.getString(R.string.app_name)} $timeInMills $this")
     }
 
     companion object {
